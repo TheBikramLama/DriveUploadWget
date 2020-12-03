@@ -2,8 +2,8 @@
 
 # Install Gdrive
 go get github.com/TheBikramLama/gdrive
-# Install aria2
-sudo apt-get install -y aria2
+# Install wget
+sudo apt-get install -y wget
 
 # Make Executables
 chmod +x upload.sh

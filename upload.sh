@@ -2,7 +2,7 @@
 
 # Command Checker function
 checkCommand() {
-	local commands=(gdrive aria2c)
+	local commands=(gdrive wget)
 	for command in "${commands[@]}"
 	do
 		if hash $command 2>/dev/null; then
@@ -31,7 +31,7 @@ checkGdrive() {
 startDownload() {
 	clear
 	mkdir downloads
-	aria2c -d "downloads" -o "$name" "$url"
+	wget "$url" -O "downloads/$name"
 }
 
 # Uploader Function
