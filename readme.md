@@ -2,7 +2,7 @@
 
 ## Installation
 1. Clone the repository.<br />
-`git clone https://github.com/TheBikramLama/DriveUpload`
+`git clone https://github.com/TheBikramLama/DriveUploadWget`
 2. Make **init.sh** executable.<br />
 `chmod +x init.sh`
 3. Run **init.sh**<br />
